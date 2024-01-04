@@ -1,0 +1,40 @@
+.sidebarOverflow::-webkit-scrollbar-track {
+  /* border: 1px solid rgb(150, 150, 150); */
+  border-radius: 10px;
+  background-color: #f3f3f3;
+  /* padding-left: 10px; */
+}
+
+.sidebarOverflow::-webkit-scrollbar {
+  width: 3.5px;
+  height: 7px
+}
+
+.sidebarOverflow::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  box-shadow: inset 2px 2px 10px #ffffff4d;
+  background-color: #bbbbbb;
+  /* border: 1px solid #ffffff; */
+}
+  
+  /* .dropdown-menu {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height s ease;
+  } */
+  
+  /* .dropdown:hover .dropdown-menu {
+    max-height: 500px; 
+    overflow-y: scroll;
+    transition: max-height .5s ease;
+  } */
+
+  /* .dropdown:hover .carat-rotate {
+    rotate: 180deg;
+    transition: rotate .5s ease;
+  } */
+
+.active-link{
+  color: aqua;
+  background-color: aqua;
+}
